@@ -1,0 +1,45 @@
+/* The component style is inserted here. */
+.profile-container {
+    width: 10vw;
+    max-width: 200px;
+    min-width: 84px;
+}
+.profile-container:hover {
+    .profile-icon {
+        border: 0.3em solid white;
+    }
+    .profile-name {
+        color: white;
+    }
+}
+.profile-icon {
+    background-color: #333;
+    background-repeat: no-repeat;
+    border: 0.3em solid rgba(0, 0, 0, 0.4);
+    height: 10vw;
+    width: 10vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    img {
+        background-color: #333;
+        background-repeat: no-repeat;
+        height: 10vw;
+        width: 10vw;
+        background-size: cover;
+        max-height: 200px;
+        max-width: 200px;
+        min-height: 84px;
+        min-width: 84px;
+    }
+}
+.profile-name {
+    line-height: 1.2em;
+    min-height: 1.8em;
+    color: grey;
+    display: block;
+    text-align: center;
+    font-size: 1.3vw;
+    margin: 0.6em 0;
+}

@@ -1,0 +1,61 @@
+/* The component style is inserted here. */
+.header-container {
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #141414;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(20, 20, 20, 1) 75%);
+    // background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,rgba(0,0,0,.7)),color-stop(10%,rgba(0,0,0,0)));
+    z-index: 1;
+    #logo {
+        width: 133px;
+        height: 71px;
+        padding-left: 30px;
+        z-index: 1000;
+    }
+}
+
+.header-browse {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, transparent);
+    position: fixed;
+    width: 100%;
+}
+.header-black{
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    li {
+        float: left;
+        margin-left: 18px;
+       
+        a {
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 14px;
+                display: flex;
+                align-items: center;
+            span{
+                margin-left: .5rem;
+            }
+        }
+    }
+}
+
+.header-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+}
+.header-img-profile{
+    background-image: url(https://occ-0-333-3934.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABSC68HomFtb4MYVcx3eBasYlBUyo0ZJ2Z0D9H9Bp7lmhxI1q0jX2BYp8yIRs_A047CeH3xgwT0QaBzQw5FNvdrE.png?r=335);
+    width: 32px;
+    height: 32px;
+}

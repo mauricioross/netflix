@@ -1,0 +1,31 @@
+.body-container{
+    background-color: #141414;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        text-align: center;
+        width: 100%;
+        color: #fff;
+        font-size: 3.5vw;
+        font-weight: 300;
+    }
+    .profiles-list{
+        list-style-type: none;
+        li{
+            float: left;
+            margin-right: 27px;
+            
+        }
+        li:last-child{
+           // margin-right: 0px;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    .body-profile-container{
+        margin-top: -150px;
+    }
+}
