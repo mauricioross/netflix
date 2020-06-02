@@ -13,6 +13,11 @@ export default class App extends Component {
   render() {
     return (
       <Fragment>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Netflix - copy</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
         <Router>
 
           <Switch>
